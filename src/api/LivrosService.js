@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3333";
+const BASE_URL = "https://library-api-sasn.onrender.com";
 
 export class LivrosService {
   static getLivros() {
