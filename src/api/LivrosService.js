@@ -11,10 +11,6 @@ export class LivrosService {
     return axios.get(`${BASE_URL}/livros/${id}`);
   }
 
-  static getLivro(isbn) {
-    return axios.get(`${BASE_URL}/livros/${isbn}`);
-  }
-
   static createLivro(body) {
     return axios.post(`${BASE_URL}/livros`, body);
   }
