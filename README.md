@@ -1,2 +1,2 @@
-# projeto-react-api-node
-Projeto em React com API simples em Node.
+# projeto-react
+Projeto em React
